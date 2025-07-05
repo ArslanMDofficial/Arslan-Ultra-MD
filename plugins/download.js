@@ -10,7 +10,7 @@ let baseUrl;
 })();
 
 
-const yourName = "*POWERED BY HANS BYTE MD*";
+const yourName = "*POWERED BY ArslanMD Official*";
 
 
 
@@ -108,7 +108,7 @@ cmd({
 🔗 𝒟𝑜𝓌𝓃𝓁ℴ𝒶𝒹: ${downloadLink}
 
 ╭✦━━━━━━━━━━━━━━━━━━━━━━━━━━✦╮
-✧ 𝒫ℴ𝓌ℯ𝓇ℯ𝒹 𝒷𝓎 𝒽𝒶𝓃𝓈 𝒷𝓎𝓉ℯ 𝓂𝒹 ✧
+✧ 𝒫ℴ𝓌ℯ𝓇ℯ𝒹 𝒷𝓎 𝓐𝓻𝓼𝓵𝓪𝓷𝓜𝓓 𝓞𝓯𝓯𝓲𝓬𝓲𝓪𝓵✧
 ╰✦━━━━━━━━━━━━━━━━━━━━━━━━━━✦╯`
       );
   
