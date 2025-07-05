@@ -85,7 +85,7 @@ const {
   ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ArslanMD Official       
   ╚═════════════════╝
 `;
-  conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/FLSgNhW9/Free.png` }, caption: up })
+  conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/atby2t.png` }, caption: up })
   
   }
   })
