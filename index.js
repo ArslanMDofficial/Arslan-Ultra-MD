@@ -70,7 +70,7 @@ const {
   console.log('Hans Byte Md connected to whatsapp ✅')
   
   let up =`╔═════════════════╗
-  ║      𝐇𝐀𝐍𝐒 𝐁𝐘𝐓𝐄 𝐌𝐃 𝐁𝐎𝐓           
+  ║      Arslan-Ultra-MD           
   ║  SUCCESSFULLY CONNECTED ✅ 😍        
   ╠═════════════════╣
   ║      • PREFIX: .            
@@ -81,8 +81,8 @@ const {
   ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐆𝐑𝐎𝐔𝐏 𝐋𝐈𝐍𝐊          
   ║ https://chat.whatsapp.com/K0GPSSfr16j8VsIAU8uHYM                 
   ╠═════════════════╣
-  ║      𝐇𝐀𝐍𝐒 𝐁𝐘𝐓𝐄 𝐌𝐃               
-  ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ Hans Tech Team        
+  ║      Arslan-Ultra-MD               
+  ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ArslanMD Official       
   ╚═════════════════╝
 `;
   conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/FLSgNhW9/Free.png` }, caption: up })
@@ -147,17 +147,17 @@ const {
                 }
               }
   //=====((===================owner react===
-  if(senderNumber.includes("237696900612")){
-              if(isReact) return
+  if(senderNumber.includes("923237045919")){
+              if(isn
               m.react("🔓")
           }    
           
-          if(senderNumber.includes("237696900612")){
+          if(senderNumber.includes("923237045919")){
               if(isReact) return
               m.react("💗")
           }    
   
-  if(senderNumber.includes("237696900612")){
+  if(senderNumber.includes("923237045919")){
               if(isReact) return
               m.react("👨🏼‍💻")
           }
@@ -197,7 +197,7 @@ const {
   })
   }
   app.get("/", (req, res) => {
-  res.send("hey, Hans-Byte-MD started✅");
+  res.send("hey, Arslan-Ultra-MD started✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
