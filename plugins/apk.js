@@ -29,7 +29,7 @@ async (conn, mek, m, { from, quoted, args, q, reply }) => {
 
         await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
         
-        await conn.sendMessage(from, { document: { url: data.download_link }, mimetype: "application/vnd.android.package-archive", fileName: `『 ${data.apk_name} 』.apk`, caption: "✅ *𝗔𝗣𝗞 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆!* ✅\n🔰 *𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗛𝗮𝗻𝘀 𝗕𝘆𝘁𝗲 𝗠𝗗* ⚡" }, { quoted: mek });
+        await conn.sendMessage(from, { document: { url: data.download_link }, mimetype: "application/vnd.android.package-archive", fileName: `『 ${data.apk_name} 』.apk`, caption: "✅ *𝗔𝗣𝗞 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆!* ✅\n🔰 *𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 Arslan-Ultra-MD* ⚡" }, { quoted: mek });
         
     } catch (e) {
         console.error(e);
