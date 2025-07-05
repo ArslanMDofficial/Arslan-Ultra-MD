@@ -146,21 +146,7 @@ const {
                   return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted, ...options })
                 }
               }
-  //=====((===================owner react===
-  if(senderNumber.includes("923237045919")){
-              if(isn
-              m.react("🔓")
-          }    
-          
-          if(senderNumber.includes("923237045919")){
-              if(isReact) return
-              m.react("💗")
-          }    
-  
-  if(senderNumber.includes("923237045919")){
-              if(isReact) return
-              m.react("👨🏼‍💻")
-          }
+
   //===================================     
   const events = require('./command')
   const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
