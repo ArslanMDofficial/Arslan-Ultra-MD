@@ -15,13 +15,13 @@ let dec = `*👋 Hello ${pushname}*
 
 > *MY OWNER INFO 👨‍💻* 
 
-*🔥 ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: Hans Byte MD*
-🔥 *ɴᴜᴍʙᴇʀ* -: 237696900612
-🔥 *ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ-:* https://whatsapp.com/channel/0029VaZDIdxDTkKB4JSWUk1O
+*🔥 ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: Arslan-Ultra-MD*
+🔥 *ɴᴜᴍʙᴇʀ* -: 923237045919
+🔥 *ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ-:* https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306
 
 *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ  Hans Tech*
 `
-await conn.sendMessage(from,{image:{url: `https://i.imghippo.com/files/ra7818HI.webp`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/atby2t.png`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
