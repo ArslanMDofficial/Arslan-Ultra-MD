@@ -25,16 +25,6 @@ const {
   if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
   if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
   const sessdata = config.SESSION_ID.split("ARSL~")[1];
-
-    if (!sessdata || !sessdata.includes("#")) {
-        console.error('❌ Invalid SESSION_ID format! It must contain both file ID and decryption key.');
-        return false;
-    }
-
-    const [fileID, decryptKey] = sessdata.split("#");
-
-try {
-  console.log("🔄 Downloading Session...");
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
   filer.download((err, data) => {
   if(err) throw err
