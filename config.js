@@ -4,9 +4,10 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "ARSL~46VGQCQK#KbV-wzJoxhZQJAULvn6431CFqWM479g89t96Tyo-2cg",  // ADD YOUR SESSION ID 
-ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/FLSgNhW9/Free.png",
-ALIVE_MSG: process.env.ALIVE_MSG || "HEY DEAR, I'm thrilled to announce that HansByte Md is ALIVE now—ready to dive into new adventures with you!",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/atby2t.png",
+ALIVE_MSG: process.env.ALIVE_MSG || "HEY DEAR, I'm thrilled to announce that Arslan-Ultra-MD is ALIVE now—ready to dive into new adventures with you!",
 SUDO_NB: process.env.SUDO_NB || "923237045919",
+AUTO_REACT: process.env.AUTO_REACT || "true", // Enable/disable auto reaction (true/false)
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 MODE: process.env.MODE || "public",
 AUTO_VOICE:"false",
