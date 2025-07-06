@@ -15,3 +15,4 @@ OWNER_NAME: process.env.OWNER_NAME || "ArslanMD Official",
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true"
 };
+
