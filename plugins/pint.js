@@ -26,7 +26,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, reply }) => 
         for (const imageData of images) {
             let desc = `
 ╭═══════════════════⊷❍
-┃ *📸 Hans Byte MD Pinterest Downloader 📸*
+┃ *📸 Arslan-Ultra-MD Pinterest Downloader 📸*
 ╰══════════⊷
 ┃ 👤 *Uploader:* ${imageData.upload_by}
 ┃ 🏷 *Full Name:* ${imageData.fullname}
@@ -35,7 +35,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, reply }) => 
 ┃ 🔗 *Source:* ${imageData.source}
 ╰──━━━━━━━━━══━━━━━━━━┈╯
 
-*© Powered by Hans Byte MD*
+*© Powered by ArslanMD Official*
 `;
         
             await conn.sendMessage(from, { image: { url: imageData.image }, caption: desc }, { quoted: mek });
