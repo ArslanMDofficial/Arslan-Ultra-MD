@@ -19,7 +19,7 @@ let dec = `*👋 Hello ${pushname}*
 🔥 *ɴᴜᴍʙᴇʀ* -: 923237045919
 🔥 *ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ-:* https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306
 
-*©ᴘᴏᴡᴇʀᴇᴅ ʙʏ  Hans Tech*
+*©ᴘᴏᴡᴇʀᴇᴅ ʙʏ  ArslanMD Official*
 `
 await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/atby2t.png`},caption:dec},{quoted:mek});
 
