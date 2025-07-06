@@ -46,7 +46,7 @@ let desc= `
 await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
 
 // Download audio+document
-const res = await fetch(`https://api.davidcyriltech.my.id/youtube/mp3?url=${url}`);
+const res = await fetch(`https://apis.davidcyriltech.my.id/download/ytmp3?url=${url}`);
 const data = await res.json();
 if (!data.success) return reply("🌀𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗙𝗮𝗶𝗹𝗲𝗱! 𝗣𝗹𝗲𝗮𝘀𝗲 𝘁𝗿𝘆 𝗮𝗴𝗮𝗶𝗻🌊");
 
@@ -106,7 +106,7 @@ let desc= `
 await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
 
 // Download video+document
-const res = await fetch(`https://api.davidcyriltech.my.id/youtube/mp3?url=${url}`);
+const res = await fetch(`https://apis.davidcyriltech.my.id/download/ytmp3?url=${url}`);
 const data = await res.json();
 if (!data.success) return reply("🌀𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗙𝗮𝗶𝗹𝗲𝗱! 𝗣𝗹𝗲𝗮𝘀𝗲 𝘁𝗿𝘆 𝗮𝗴𝗮𝗶𝗻🌊");
 
