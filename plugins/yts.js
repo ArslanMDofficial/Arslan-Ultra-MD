@@ -29,7 +29,7 @@ async (conn, mek, m, { args, reply }) => {
                       `┃ 📅 *𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱:*  🕰️ ${vid.ago}\n` +
                       `┃ 🔗 *𝗪𝗮𝘁𝗰𝗵 𝗛𝗲𝗿𝗲:*  🌐 ${vid.url}\n` +
                       `┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n` +
-                      `💎 *BY HANS BYTE* 💎`;
+                      `💎 *𝒜𝓇𝓈𝓁𝒶𝓃-𝒰𝓁𝓉𝓇𝒶-𝑀𝒟* 💎`;
 
         // Send message with video thumbnail
         await conn.sendMessage(m.chat, { image: { url: vid.thumbnail }, caption: message }, { quoted: mek });
